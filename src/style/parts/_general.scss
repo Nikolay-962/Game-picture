@@ -38,7 +38,7 @@ body {
   &__item {
     display: none;      
     margin: 0 40px;
-    position: relative;
+    
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(14, 13, 13, 0.9);
@@ -80,6 +80,7 @@ body {
   opacity: 1;
 }
 .active {
+  position: relative;
   display: block;
 }
 .btn {
@@ -88,7 +89,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   width: 60px;
-  background-color: rgba(255, 254, 255, .4);
+  background-color: rgba(255, 254, 255, 0.1);
   border-radius: 10px;  
   &--prev {
     left: 0%;

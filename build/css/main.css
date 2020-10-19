@@ -53,8 +53,6 @@ body
 
 .slider__item
 {
-    position: relative;
-
     display: none;
     overflow: hidden;
 
@@ -116,6 +114,8 @@ body
 
 .active
 {
+    position: relative;
+
     display: block;
 }
 
@@ -130,7 +130,7 @@ body
     transform: translateY(-50%);
 
     border-radius: 10px;
-    background-color: rgba(255, 254, 255, .4);
+    background-color: rgba(255, 254, 255, .1);
 }
 
 .btn--prev
