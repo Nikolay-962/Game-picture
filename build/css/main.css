@@ -114,22 +114,25 @@ body
 .btn
 {
     position: absolute;
-    top: 107px;
+    top: 50%;
 
-    width: 180px;
-    height: 67%;
+    width: 60px;
+    height: 180px;
 
-    background-color: transparent;
+    transform: translateY(-50%);
+
+    border-radius: 10px;
+    background-color: rgba(255, 254, 255, .4);
 }
 
 .btn--prev
 {
-    left: 385px;
+    left: 27%;
 }
 
 .btn--next
 {
-    right: 424px;
+    right: 27%;
 }
 
 /*# sourceMappingURL=sourcemaps/main.css.map */

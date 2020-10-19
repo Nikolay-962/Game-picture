@@ -76,15 +76,17 @@ body {
   display: block;
 }
 .btn {
-  background-color: transparent;
   position: absolute;
-  height: 67%;
-  top: 107px;
-  width: 180px;  
+  height: 180px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  background-color: rgba(255, 254, 255, .4);
+  border-radius: 10px;  
   &--prev {
-    left: 385px;
+    left: 27%;
   }
   &--next {
-    right: 424px;
+    right: 27%;
   }
 }
