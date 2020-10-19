@@ -38,10 +38,12 @@ body {
   &__item {
     display: none;      
     margin: 0 40px;
-    position: absolute;
+    position: relative;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(14, 13, 13, 0.9);  
+    box-shadow: 0 0 10px rgba(14, 13, 13, 0.9);
+    width: 708px;
+    height: 560px;  
   }
   &__description {
     position: absolute;
@@ -64,9 +66,14 @@ body {
     }
   }
   &__img {
+    position: absolute;
     display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 708px;
-    height: 560px;
+    height: 560px;  
   }
 }
 .ansver {
@@ -77,16 +84,16 @@ body {
 }
 .btn {
   position: absolute;
-  height: 180px;
+  height: 60%;
   top: 50%;
   transform: translateY(-50%);
   width: 60px;
   background-color: rgba(255, 254, 255, .4);
   border-radius: 10px;  
   &--prev {
-    left: 27%;
+    left: 0%;
   }
   &--next {
-    right: 27%;
+    right: 0%;
   }
 }
