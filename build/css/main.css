@@ -125,12 +125,12 @@ body
     top: 50%;
 
     width: 60px;
-    height: 60%;
+    height: 20%;
 
     transform: translateY(-50%);
 
     border-radius: 10px;
-    background-color: rgba(255, 254, 255, .1);
+    background-color: rgba(248, 244, 244, .3);
 }
 
 .btn--prev
